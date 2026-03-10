@@ -1,15 +1,15 @@
 
-ejercicios = ["frontlever", "backlever", "pino", "fullplanch"]
-archivo = "ejercicios_calistenia.txt"
-i = 0
+exercise = ["frontlever", "backlever", "pino", "fullplanch"] # We define a list.
+file = "sw_exercise.txt"
+i = 0 # We initialize a var to 0.
 
-with open(archivo, "w", encoding="utf-8") as ej:
+with open(file, "w", encoding="utf-8") as ej: 
     while True:
-        ej.write(ejercicios[i] + "\n")
+        ej.write(exercise[i] + "\n") # We write the file using a while loop.
         i += 1
-        if i == len(ejercicios):
+        if i == len(exercise):
             break
 
-with open(archivo, "r", encoding="utf-8") as ej:
-    contenido = ej.read()
-print(contenido)
+with open(file, "r", encoding="utf-8") as ej: 
+    content = ej.read() # We read the content of the file
+print(content)

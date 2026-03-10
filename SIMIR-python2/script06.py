@@ -1,21 +1,21 @@
 import random 
 import string
 
-def generador_contraseña():
-    
-    diccionario = string.ascii_letters + string.digits + string.punctuation
-    c = random.choice(diccionario)
+def password_generator():
+    # We created a dictionary made up of letters, digits and punctuation marks.
+    dictionary = string.ascii_letters + string.digits + string.punctuation 
+    c = random.choice(dictionary)
     return(c) 
 
-c1 = generador_contraseña()
-c2 = generador_contraseña() 
-c3 = generador_contraseña()
-c4 = generador_contraseña()
-c5 = generador_contraseña()
-c6 = generador_contraseña()
-c7 = generador_contraseña()
-c8 = generador_contraseña()
+c1 = password_generator()
+c2 = password_generator() 
+c3 = password_generator()
+c4 = password_generator()
+c5 = password_generator()
+c6 = password_generator()
+c7 = password_generator()
+c8 = password_generator()
 
-passwd = c1 + c2 + c3 + c4 + c5 + c6 + c7 +c8 # Sumamos todos los valores.
+passwd = c1 + c2 + c3 + c4 + c5 + c6 + c7 +c8 # We add up all the values.
 
-print("La password:", passwd)
+print("The passwd:", passwd)
