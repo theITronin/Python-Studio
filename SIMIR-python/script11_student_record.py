@@ -6,15 +6,15 @@
 #    ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═══╝ ╚═════╝ 
                                                                                               
 
-nombre = str(input("Nombre: ").strip()) # Entrada para la variable nombre.
-edad = int(input("Edad: ")) # Entrada para la varibale edad.
-asignatura = str(input("Asignatura favorita: ").strip()) # Entrada para la variable asignatura.
+name = str(input("Name: ").strip()) # Request name variable.
+age = int(input("Age: ")) # Request age variable.
+subject = str(input("Favorite subject: ").strip()) # Request subject variable.
 
-print("-" * 30)
+print("-" * 30) # We print a delimiter.
 
-# Imprimimos un string + la variable correspondiente usando fstring.
-print(f"Alumno/a: {nombre}") 
-print(f"Edad: {edad}") 
-print(f"Le encanta: {asignatura}")
+# We print the string + the content of the var.
+print(f"Student: {name}") 
+print(f"Age: {age}") 
+print(f"Loves: {asignatura}")
 
-print("-" * 30)
+print("-" * 30) # We print a delimiter.

@@ -7,7 +7,7 @@
                                                  
 
 
-# uso de slicing (rebanadas)
+# using slicing (rebanadas)
 s = "Métodos útiles"
 # índices: 0 1 2 3 4 5 6 7 8 9 10 11 12 13
 #          M é t o d o s   ú t  i  l  e  s

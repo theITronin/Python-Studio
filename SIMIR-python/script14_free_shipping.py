@@ -1,15 +1,15 @@
 
-# Declaramos variable importe y le ingresamos el valor de la entrada validada como float.
-importe = float(input("Cuál fue el importe de la compra (€): "))
+# We declare the variable "amount" and assign it the value of the validated input as a float.
+amount = float(input("Cuál fue el importe de la compra (€): "))
 
-# Condiciones:
-if importe < 0: # Validamos que el importe no sea negativo
-    print("Importe invalido.")
-elif importe >= 50: # Importe mayor o igual qué 50
-    print("Envio gratis.")
-    print(f"Total: {importe}")
+# Conditionals:
+if amount < 0: # We verify that the amount is not negative.
+    print("Invalid amount.")
+elif amount >= 50: # Amount greater than or equal to 50
+    print("Free shipping.")
+    print(f"Total: {amount}")
 else:
-    costo_envio = 4.99 # otra variable útil
-    total = importe + costo_envio
-    print("El envío cuesta 4,99€.") # Importe menor a 50
-    print(f"Envío: {costo_envio} €. Total {total} €") # Imprimimos el total (importe más )
+    shipping_cost = 4.99 # another useful variable
+    total = amount + shipping_cost
+    print("The cost of shipping: 4,99€.") # Amount less than 50
+    print(f"Shipping: {shipping_cost} €. Total {total} €") # We print the total (amount plus)

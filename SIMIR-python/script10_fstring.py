@@ -6,5 +6,5 @@
 #    ╚═╝     ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝ 
                                                        
 
-nombre = "Diego"
-print(f"Bienvenido a Python {nombre}") # Ponemos 'f' antes de las comillas
+name = "Diego"
+print(f"Bienvenido a Python {name}") # We put f before the "".

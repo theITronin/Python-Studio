@@ -7,12 +7,12 @@
                                                          
 
 
-# strip() / lstrip() / rstrip() Qué hace: quita espacios en blanco
-# No toca lo que está en medio
+# strip() / lstrip() / rstrip() What it does: removes blank spaces
+# It doesn't touch what's in the middle
 
-# strip : elimina los espacios de la izquierda y de la derecha
-# lstrip: elimina los espacios de la izquierda
-# rstrip: elimina los espacios de la derecha
+# strip: removes spaces from the left and right
+# lstrip: removes spaces from the left
+# rstrip: removes spaces from the right
 
 t = "  Hola, Mundo  "
 print(t.strip()) # "Hola, Mundo"

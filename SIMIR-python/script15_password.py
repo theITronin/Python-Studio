@@ -1,8 +1,8 @@
-# Declaración de variables
-password = str(input("Ingrese su contraseña (8 caracteres mínimo): "))
+# variable declaration
+password = str(input("Enter your password (8 characters minimum): "))
 
 # Condiciones
 if len(password) < 8:
-    print("La contraseña debe tener al menos 8 caracteres.")
+    print("The password must be at least 8 characters long.")
 else:
-    print(f"Contraseña:{password} guardada")
+    print(f"Password: {password} saved")

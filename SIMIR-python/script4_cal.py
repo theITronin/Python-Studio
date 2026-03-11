@@ -1,19 +1,19 @@
-#     ██████╗ █████╗ ██╗      ██████╗██╗   ██╗██╗      █████╗ ██████╗  ██████╗ ██████╗  █████╗ 
-#    ██╔════╝██╔══██╗██║     ██╔════╝██║   ██║██║     ██╔══██╗██╔══██╗██╔═══██╗██╔══██╗██╔══██╗
-#    ██║     ███████║██║     ██║     ██║   ██║██║     ███████║██║  ██║██║   ██║██████╔╝███████║
-#    ██║     ██╔══██║██║     ██║     ██║   ██║██║     ██╔══██║██║  ██║██║   ██║██╔══██╗██╔══██║
-#    ╚██████╗██║  ██║███████╗╚██████╗╚██████╔╝███████╗██║  ██║██████╔╝╚██████╔╝██║  ██║██║  ██║
-#     ╚═════╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+# ▄█████░▄████▄░██░░░░░▄█████░██░░░██░██░░░░░▄████▄░████████░▄█████▄░█████▄
+# ██░░░░░██░░██░██░░░░░██░░░░░██░░░██░██░░░░░██░░██░░░░██░░░░██░░░██░██░░██
+# ██░░░░░██░░██░██░░░░░██░░░░░██░░░██░██░░░░░██░░██░░░░██░░░░██░░░██░█████▀
+# ██░░░░░██████░██░░░░░██░░░░░██░░░██░██░░░░░██████░░░░██░░░░██░░░██░██░░██
+# ▀█████░██░░██░██████░▀█████░▀█████▀░██████░██░░██░░░░██░░░░▀█████▀░██░░██
+
                                                                                           
 
-# Imprime nombre del programa
-print("Calculadora básica")
+# Print the name of the program.
+print("Calculator ")
 
-# Entrada para las dos variables donde se guardan los números
-n1 = int(input("Cual es tu primer número: "))
-n2 = int(input("Cual es tu sengundo número: "))
+# I request the 2 var where the numbers will be written.
+n1 = int(input("What is your first number: "))
+n2 = int(input("What is your second number: "))
 
-# Operaciones usando los números pedidos antes
-print("Suma: " , n1 + n2)
-print("Resta: " , n1 - n2)
-print("Multiplicación: " , n1 * n2)
+# Operations using the numbers.
+print("Sum: " , n1 + n2)
+print("Minus: " , n1 - n2)
+print("Multiplication: " , n1 * n2)

@@ -7,11 +7,11 @@
 
 # f-strings
 
-# Una f-string (desde Python 3.6) es una cadena que empieza con f o F
-# y permite incrustar expresiones de Python entre llaves {}.
-# Esas expresiones se evalúan y su resultado se convierte en texto.
+# A f-string (since Python 3.6) is a string that begins con f o F
+# and allows embedding Python expressions within keys {}.
+# These expressions are evaluated and their result is converted into text.
 
-nombre = "Pablo"
-print(f"Hola {nombre}") # "Saluda a Diego"
-edad = 24
-print(f"{nombre} tiene {edad} años") # "Años de Diego"
+name = "Pablo"
+print(f"Hello {name}")
+age = 24
+print(f"{name} is {age} years old") # "Pablo's years"

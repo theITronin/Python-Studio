@@ -1,9 +1,9 @@
 
-# Declara la varibable usando una entrada y la valida con int.
-edad = int(input("Cuál es tu edad: "))
+# requests the variable and validates that its format is int
+edad = int(input("How old are you?: "))
 
-# pregunta condicional if
+# if conditional
 if (edad >= 18):
-    print("Eres mayor de edad")
+    print("You are adult")
 else:
-    print("Eres menor de edad")
+    print("You are not adult")

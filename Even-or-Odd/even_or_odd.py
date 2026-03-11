@@ -1,7 +1,5 @@
 from colorama import Fore, Style
 
-
-
 while True:
     num = int(input(f"{Fore.LIGHTMAGENTA_EX}Elije un número: "))
     if num % 2 == 0:

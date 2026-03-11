@@ -1,8 +1,8 @@
 
-#variable nota
+# grade variable
 nota = float(input("Nota del 0-10: "))
 
-#condicionales
+# conditionals
 if nota < 0 or nota > 10:
     print("Nota inválida")
 elif nota < 5:

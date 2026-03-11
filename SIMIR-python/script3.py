@@ -1,2 +1,2 @@
-nombre = str(input("Hola, cuál es tu nombre: ")) # We request the name string. This string will be written in the variable.
-print("Bienvenido a Python", nombre)
+name = str(input("Hello, what is your name?: ")) # We request the name string. This string will be written in the variable.
+print("Welcome to Python", name)
