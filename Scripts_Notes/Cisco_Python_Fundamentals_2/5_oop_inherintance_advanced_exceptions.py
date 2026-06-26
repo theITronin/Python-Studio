@@ -1,11 +1,11 @@
-# 1. Inheritance Concepts & Diagrams
+# --- 1. Inheritance Concepts & Diagrams ---
 # When a class derives from another, the relation is called Inheritance.
 # Superclass (Parent): Present on top. / Subclass (Child): Derived class below.
 # In inheritance diagrams, arrows direct from the Subclass towards its Superclass.
 # Subclasses automatically inherit all methods, class variables, and instance variables.
 
 
-# 2. String Representation: __str__()
+# --- 2. String Representation: __str__() ---
 # Redefining the __str__() method customizes how an object converts into a readable string.
 class Mouse:
     Population = 0  # Inheritable class variable
@@ -25,7 +25,7 @@ print(professor_mouse)  # Invokes __str__ automatically. Output: Hi, my name is 
 print(Mouse.Population)  # Output: 1
 
 
-# 3. Introspection & Object Relations
+# --- 3. Introspection & Object Relations ---
 # issubclass(C1, C2): Returns True if Class_1 is a subclass of Class_2.
 # isinstance(O, C): Returns True if Object belongs to Class or its subclasses.
 # 'is' operator: Checks if two variables refer to the exact same object in memory.
@@ -42,7 +42,7 @@ print(mickey is minnie)              # Output: False
 print(mickey is cloned_mickey)       # Output: True
 
 
-# 4. The super() Function & Overriding
+# --- 4. The super() Function & Overriding ---
 # super() returns a reference to the nearest superclass.
 # Subclasses can override parent methods by declaring an identical name.
 
@@ -60,7 +60,7 @@ print(AncientMouse("Caesar"))        # Output: Meum nomen est Caesar
 print(EnhancedLabMouse("Brain"))     # Output: Laboratory Hi, my name is Brain
 
 
-# 5. Property Resolution Order (MRO)
+# --- 5. Property Resolution Order (MRO) ---
 # To locate any property, Python scans components in this exact order:
 # 1. Inside the object itself.
 # 2. Inside all classes in the inheritance chain from bottom to top.
@@ -68,7 +68,7 @@ print(EnhancedLabMouse("Brain"))     # Output: Laboratory Hi, my name is Brain
 # Failure to find the property raises an AttributeError exception.
 
 
-# 6. Advanced Exceptions: try-except-else-finally
+# --- 6. Advanced Exceptions: try-except-else-finally ---
 # else: Executes ONLY if NO exception was raised in the try block.
 # finally: ALWAYS executes regardless of whether an exception occurred or not.
 
@@ -83,7 +83,7 @@ finally:
 # Output: success finished
 
 
-# 7. Exception Objects & Custom Exceptions
+# --- 7. Exception Objects & Custom Exceptions ---
 # Using 'except ExceptionName as exception_object:' intercepts the error object.
 # The object's 'args' property (a tuple) contains arguments passed to its constructor.
 # Built-in exception classes can be extended via inheritance to create custom errors.
