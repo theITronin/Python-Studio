@@ -1,4 +1,4 @@
-# 1. Basic try-except Structure
+# --- 1. Basic try-except Structure ---
 # Exceptions are runtime anomalies. Code that might fail goes inside 'try'.
 # If an error occurs, execution jumps to the 'except' block to handle it.
 try:
@@ -8,7 +8,7 @@ except:
     print("An error occurred during execution.")
 
 
-# 2. Multiple Specific Except Blocks
+# --- 2. Multiple Specific Except Blocks ---
 # You can handle different exceptions by specifying their names.
 # Only the first matching except block will execute.
 try:
@@ -20,7 +20,7 @@ except IndexError:
     print("Handling an out-of-bounds list access.")
 
 
-# 3. The Default/Anonymous Except Block
+# --- 3. The Default/Anonymous Except Block ---
 # An anonymous/unnamed except block catches any exception not caught before.
 # It MUST always be placed at the very end of all specific except blocks.
 try:
@@ -31,7 +31,7 @@ except:
     print("This anonymous block catches everything else.")
 
 
-# 4. Exception Hierarchy & Ordering
+# --- 4. Exception Hierarchy & Ordering ---
 # Built-in exceptions form a hierarchy tree. More specific exceptions must 
 # always be placed BEFORE general exceptions (e.g., IndexError before LookupError).
 
@@ -54,7 +54,7 @@ except IndexError:
     pass  # Critical: This line is unreachable code and will never run!
 
 
-# 5. Raising Exceptions (raise)
+# --- 5. Raising Exceptions (raise) ---
 # The 'raise' keyword triggers an exception manually on demand.
 # 'raise' without a name can only be used inside 'except' to re-raise the current error.
 try:
@@ -64,7 +64,7 @@ except ValueError:
     # raise  # Re-raises the ValueError to the outside scope if uncommented
 
 
-# 6. Assertions (assert)
+# --- 6. Assertions (assert) ---
 # 'assert expression' evaluates a condition. If it is falsy (0, "", None, False), 
 # it immediately raises an AssertionError exception. Used to secure critical data.
 def calculate_age(year):
@@ -72,7 +72,7 @@ def calculate_age(year):
     return 2026 - year
 
 
-# 7. Built-in Exceptions Reference 
+# --- 7. Built-in Exceptions Reference ---
 # Abstract / General Exceptions (used as parent classes):
 # - BaseException (The absolute top root of all exceptions)
 # - ArithmeticError (Base class for math errors)
