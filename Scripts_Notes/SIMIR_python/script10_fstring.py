@@ -7,4 +7,4 @@
                                                        
 
 name = "Diego"
-print(f"Bienvenido a Python {name}") # We put f before the "".
+print(f"Welcome to Python {name}") # We put f before the "".
