@@ -6,7 +6,7 @@
 #     ╚═════╝    ╚═╝   ╚═╝╚══════╝╚══════╝╚══════╝     ╚═╝
                                                      
 
-# Métodos útiles
+# Useful methods
 s = "  Hola Mundo  "
 print(s.lower()) # "  hola mundo  "
 print(s.upper()) # "  HOLA MUNDO  "
