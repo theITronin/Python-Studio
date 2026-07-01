@@ -23,7 +23,7 @@ print(s[6]) # 's' (last letra)
 
 
 print(s[-1]) # 's' # negative index
-print(s[4]) # 's' # positive index
+print(s[6]) # 's' # positive index
 
 print(s[-3]) # 'n'
 print(s[-7]) # 'C'
