@@ -19,7 +19,7 @@ print(s[2]) # 'd'
 print(s[3]) # 'e'
 print(s[4]) # 'n'
 print(s[5]) # 'a'
-print(s[6]) # 's' (last letra)
+print(s[6]) # 's' (last letter)
 
 
 print(s[-1]) # 's' # negative index
