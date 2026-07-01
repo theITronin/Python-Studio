@@ -1,6 +1,6 @@
 
 # We declare the variable "amount" and assign it the value of the validated input as a float.
-amount = float(input("Cuál fue el importe de la compra (€): "))
+amount = float(input("What was the purchase amount (€):"))
 
 # Conditionals:
 if amount < 0: # We verify that the amount is not negative.
